@@ -1,1 +1,14 @@
+import java.util.Scanner;
 
+public class StudentElectionTally {
+
+    //The Candidate details who will be Standing for election
+    static class Candidate {
+        String name;
+        int votes;
+
+        Candidate(String name) {
+            this.name = name;
+            this.votes = 0;
+        }
+    }
